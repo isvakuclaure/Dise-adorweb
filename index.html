@@ -1,0 +1,258 @@
+
+<!DOCTYPE html >
+
+<html lang="en">
+      
+<head>
+      
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/practica.css">
+</head>
+<body onkeypress="comer(event)" onkeyup="comer(event)">
+    <h1 id="tit" class="threeD">GDDiseño</h1>
+    <div id="formu" class="bocadillo-cuadrado">
+      <div id="content-formu">
+      <form name="princi">         
+        <p>Titulo:<input type="text" id="nom"></p>
+        <div id="ctr-nom "></div>
+        <p>Tema:<select id="temas">
+            <option id="espacio"value="esp">Espacio</option>
+            <option id="perro"value="perr">Perros</option>           
+          </select>
+          <input type="button" class="ahora" value="empecemos" onclick="empezar()">
+        </p>
+      </form>
+    </div>
+</div>
+<!-- evento dom -->
+<div id="todosti">
+    <!-- <h1 id="retro"></h1>
+    <h1 id="granja"></h1>     -->
+</div>
+<!-- evento dom -->
+<div id="empezar" class="divas">
+    
+</div>
+<!-- evento dom -->
+<div id="portada1">
+    <div class="container">
+
+
+		<div class="content clearfix">
+
+			<div class="cube-container">
+				<div class="photo-cube">
+
+					<img id="unouno" class="front" alt="">										 
+					<img id="unodos" class="left"  alt="">
+                    <img id="unotres"class="right"  alt="">
+                    <img id="unocuatro" class="back" alt="">
+
+				</div>
+			</div>	
+
+			<div class="cube-container">
+				<div class="photo-cube">
+					<img id="dosuno" class="front" alt="">
+					<img id="dosdos" class="left"  alt="">
+                    <img id="dostres" class="right"  alt="">
+                    <img id="doscuatro"class="back" alt="">
+				</div>
+			</div>	
+		
+		</div>
+	</div>
+</div>
+<div id="galletas">
+  <div id="rell">  &nbsp;</div>
+  <img id="gifs" src="imagenes/lecheycookie.gif">
+  <div id="conten-galleta"><p>¿Aceptas las cookies de esta pagina?</p></div>
+  <form name="gall">            
+      <input type="button" onclick="acepto()" class="boton5" id="ac" value="Aceptar">
+      <input type="button" onclick="rechazo()" id="rec" class="boton5"  value="Rechazar">
+  </form>
+<p>
+</div>
+<!-- evento dom -->
+<div id="portada">
+    <div class="pic-ctn">
+        <img alt="" id="pic1" class="pic">
+        <img  alt="" id="pic2" class="pic">
+        <img alt="" id="pic3" class="pic">
+        <img  alt="" id="pic4" class="pic">
+        <img alt="" id="pic5" class="pic">
+      </div>
+</div>
+<div id="subapartado0">
+
+</div>
+<div id="subapartado1">
+    <div id="noes">
+        <div> 
+            <h1>El gato Garfield ama los lunes</h1>            
+        </div>
+        <div><div id="tunonoes">Hoy lunes 26 de Enero de 1999 ha ocurrido un hecho desolador garfield ha dicho que le gustan los lunes. 
+        </p>Duras palabras para los amantes de los domingos, Garfield tras decir estas duras declaraciones ha sido acusado de chaquetero
+        </p>El suceso ha ocurrido en Michigan, tras probar la lasaña de Monsie Ducan del restaurante italiano "Vita Bella"
+        </p>Quizás los fan se han pasado. Tras estas palabras han iniciado la destrucción del restaurante.
+        </p>Monsie Ducan ha declarado que ha sido la lasaña más cara que jamás a creado, dicho esto ha empezado a llorar de la ilusión y luego todos han aplaudido. Ha sido un hecho irrepetible en la historia de los restaurantes italianos. 
+        </p>El actor de la destrucción del restaurante fue Arnuel Garfield. Cantante pop famaso en todo el continente, ha declarado que el si que odiaba los lunes. Y que por ello tenia que "tomar las represalias necesarias para que así siguiera".
+        </p>Arnuel Garfield se enfrenta a una cadena de 20 años en prisión o una fianza de 50.000€.
+        </div>
+        <div id="iunonoes">
+            <img src="imagenes/gar.jpg">
+        </div>
+    </div>
+    <div id="fdosnoes"> <!--evento de validacion -->
+        <p>Se puede suscribir a nuestro diario aquí, escribiendo su correo: 
+            <input type="text" id="core">
+             <input type="button" value="suscribirme" id="bdosnoes" onclick="fdosnopera()"></p>
+            <div id="valdosnoper"></div>
+    </div>
+    </div>   
+</div>
+<div id="subapartado2">
+        <div id="noper">
+        
+                <div> 
+                    <h1>Primer hombre que pisa el espacio este año</h1>            
+                </div>
+                <div><div id="tunonoper">Hoy 17 de marzo de 2015 ha salido de Houston, Texas el primer cohete espacial de este año. 
+                </p>Este acto ha sido llevado por el cuerpo 1879CD equipo de inginieros de alto rango de la nasa.
+                </p>Durante el despegue Lard Harry comandante de la nave espacial se ha caido del asiento.
+                </p>Este acto ha sido muy peligroso debido a la falta de gravedad a una altura de  100 millas.
+                </p>En otro orden de cosas esta expedición a significado un gran avance por la prueba del nuevo modelo del JHAHDN21.
+                </p>Esta nave espacial cuenta: con unos núcleos de elerio en los reactores, unos conductos de fibra óptica para la retroalimentación de la nave.
+                </p>Además este modelo cuenta con mejoras para la tripulación como: posavasos en el centro de mandos y una nevera de cervezas en la cubierta interior.
+                </div>
+                <div id="iunonoper">
+                    <img src="imagenes/nave.jpg">
+                </div>
+            </div>
+            <div id="fdosnoper"> <!--evento de validacion -->
+                <p>Se puede suscribir a nuestro diario aquí, escribiendo su correo: 
+                    <input type="text" id="cor">
+                     <input type="button" value="suscribirme" id="bdosnoes" onclick="fdosnoesa()"></p>
+                    <div id="valdosnoes"></div>
+            </div>
+            </div>   
+        </div>
+        
+        <div id="subapartado3">
+                <div class="cards-list">
+  
+                        <div class="card 1">
+                          <div class="card_image"> <img src="imagenes/t1.jpg" /> </div>
+                          <div class="card_title title-white">
+                            <p>Atrezo nave espacial 150€</p>
+                            
+                          </div>
+                        </div>
+                        
+                          <div class="card 2">
+                          <div class="card_image">
+                            <img src="imagenes/t2.png" />
+                            </div>
+                          <div class="card_title title-black">
+                            <p>Poster de astronauta 20€</p>
+                          </div>
+                        </div>
+                        
+                        <div class="card 3">
+                          <div class="card_image">
+                            <img src="imagenes/t3.jpg" />
+                          </div>
+                          <div class="card_title" style="color:rgb(255, 255, 255);">
+                            <p>Poster illuminati 120€</p>
+                          </div>
+                        </div>
+                          
+                          <div class="card 4">
+                          <div class="card_image">
+                            <img src="imagenes/t-4.jpg"/>
+                            </div>
+                          <div class="card_title title-white">
+                            <p>Pelicula 45€</p>
+                          </div>
+                          </div>
+                        
+                        </div>
+        </div>
+        <div id="subapartado4">
+                <div class="cards-list">
+  
+                        <div class="card 1">
+                          <div class="card_image"> <img src="imagenes/p1.png" /> </div>
+                          <div class="card_title title-white">
+                            <p>Poster contrabando 15€</p>
+                            
+                          </div>
+                        </div>
+                        
+                          <div class="card 2">
+                          <div class="card_image">
+                            <img src="imagenes/p2.jpg" />
+                            </div>
+                          <div class="card_title title-white">
+                            <p>Estampa  20€</p>
+                          </div>
+                        </div>
+                        
+                        <div class="card 3">
+                          <div class="card_image">
+                            <img src="imagenes/p3.png" />
+                          </div>
+                          <div class="card_title title-black">
+                            <p>Estampa 15€</p>
+                          </div>
+                        </div>
+                          
+                          <div class="card 4">
+                          <div class="card_image">
+                            <img src="imagenes/p4.jpg"/>
+                            </div>
+                          <div class="card_title"style="color:rgb(255, 255, 255);">
+                            <p>Logos para perros 45€</p>
+                          </div>
+                          </div>
+                        
+                        </div>
+        </div>
+        <div id="ultimo" style="clear:both">
+
+        </div>
+        <!--Eventos de raton -->
+        <div  id="footer-r" onmouseout="color1()" onmouseover="color2()">
+          
+          <div class="footer">
+            <div id="button"></div>
+          <div id="container" >
+          <div id="cont">
+          <div class="footer_center">
+               <h3 id="htres"></h3>
+          </div>
+          </div>
+          </div>
+          </div>
+            
+        </div>
+        <div id="footer-t" style="margin-top:5em;">
+          
+          <img src="imagenes/mispalomitas.PNG" id="ft" >
+        </div>
+        
+
+
+   
+        <script type="text/javascript" src="js/practica.js"></script>
+        <script type="text/javascript" src="js/cookie.js"></script>
+        <script type="text/javascript" src="js/empezar.js"></script>
+        <script type="text/javascript" src="js/siguiente.js"></script>
+        <script type="text/javascript" src="js/enlasultimas.js"></script>
+
+</body>
+</html>
